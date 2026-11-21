@@ -1,0 +1,109 @@
+TEST CASE 1 - Need query: "lightweight python library for web scraping and html parsing"
+
+NLP content-based (TF-IDF cosine):
+  1. beautifulsoup4  [Python | Web Scraping]  score=0.574
+       matched on: parsing, html, lightweight python, web scraping
+  2. selectolax      [Python | Web Scraping]  score=0.419
+       matched on: scraping, html parsing, lightweight, web
+  3. cheerio         [JavaScript | Web Scraping]  score=0.384
+       matched on: web scraping, html parsing
+  4. lxml            [Python | Web Scraping]  score=0.369
+       matched on: html parsing, web scraping, python
+  5. scrapy          [Python | Web Scraping]  score=0.187
+       matched on: scraping, web, python
+
+Hybrid (content + small popularity prior):
+  1. beautifulsoup4  [Python | Web Scraping]  score=0.928
+       matched on: parsing, html, lightweight python, web scraping
+  2. selectolax      [Python | Web Scraping]  score=0.688
+       matched on: scraping, html parsing, lightweight, web
+  3. cheerio         [JavaScript | Web Scraping]  score=0.647
+       matched on: web scraping, html parsing
+  4. lxml            [Python | Web Scraping]  score=0.614
+       matched on: html parsing, web scraping, python
+  5. flask           [Python | Web Framework]  score=0.330
+       matched on: lightweight, web, python
+
+==============================================================================
+
+TEST CASE 2 - Similar-package test: 5 alternatives to 'matplotlib'
+
+NLP content-based (item-to-item cosine):
+  1. plotly          [Python | Data Visualization]  score=0.250
+       matched on: charts, plotting, visualization, interactive
+  2. bokeh           [Python | Data Visualization]  score=0.230
+       matched on: visualization, charts, interactive, plots
+  3. d3              [JavaScript | Data Visualization]  score=0.201
+       matched on: charts, visualization, interactive, data
+  4. chart.js        [JavaScript | Data Visualization]  score=0.189
+       matched on: charts, visualization, bar, line
+  5. seaborn         [Python | Data Visualization]  score=0.169
+       matched on: visualization, plots, charts, data
+
+Hybrid (content similarity + co-rating similarity):
+  1. plotly          [Python | Data Visualization]  score=0.883
+       matched on: charts, plotting, visualization, interactive
+  2. bokeh           [Python | Data Visualization]  score=0.759
+       matched on: visualization, charts, interactive, plots
+  3. seaborn         [Python | Data Visualization]  score=0.744
+       matched on: visualization, plots, charts, data
+  4. d3              [JavaScript | Data Visualization]  score=0.693
+       matched on: charts, visualization, interactive, data
+  5. altair          [Python | Data Visualization]  score=0.620
+       matched on: charts, visualization, plotting, data
+
+==============================================================================
+
+TEST CASE 3 - Cold start: new library 'pagepick' (L41) added with 0 ratings
+
+  catalogue size: 40 -> 41
+  ratings of L41 in the rating matrix: 0
+  key phrases (TF-IDF): css selectors, web scraping, html parsing, lightweight, extract text
+
+(a) Most similar existing libraries (same vocabulary / vectorizer):
+  1. selectolax      [Python | Web Scraping]  score=0.711
+       matched on: css selectors, scraping, parsing, html
+  2. beautifulsoup4  [Python | Web Scraping]  score=0.383
+       matched on: parsing, html, scraping, web
+  3. cheerio         [JavaScript | Web Scraping]  score=0.350
+       matched on: scraping, parsing, html, selectors
+  4. lxml            [Python | Web Scraping]  score=0.267
+       matched on: parsing, html, scraping, web
+  5. scrapy          [Python | Web Scraping]  score=0.187
+       matched on: scraping, web, extract, supports
+
+(b) Need query "lightweight python library for web scraping and html parsing" -> Top-5 (content-based):
+  1. beautifulsoup4  [Python | Web Scraping]  score=0.574
+       matched on: parsing, html, lightweight python, web scraping
+  2. pagepick        [Python | Web Scraping]  score=0.552
+       matched on: lightweight, html, scraping, parsing
+  3. selectolax      [Python | Web Scraping]  score=0.419
+       matched on: scraping, html parsing, lightweight, web
+  4. cheerio         [JavaScript | Web Scraping]  score=0.384
+       matched on: web scraping, html parsing
+  5. lxml            [Python | Web Scraping]  score=0.369
+       matched on: html parsing, web scraping, python
+    rank of the new library in the content-based list: 2
+
+    rank of the new library in the hybrid list: 1
+
+(c) Popularity baseline can recommend it? NO - needs >= 2 ratings
+
+(d) Hybrid Top-5 for developer U03 (scraping fan); 'pagepick' ranked #1 of 41 unseen libraries:
+  1. pagepick        [Python | Web Scraping]  score=1.000
+       matched on: parsing, html, scraping, css selectors
+       hybrid components: content=1.00, cf=n/a, popularity=n/a
+  2. pandas          [Python | Data Science]  score=0.566
+       matched on: files, fast, python, data
+       hybrid components: content=0.06, cf=1.00, popularity=0.72
+  3. scrapy          [Python | Web Scraping]  score=0.369
+       matched on: scraping, web, requests, async
+       hybrid components: content=0.34, cf=0.58, popularity=0.00
+  4. xgboost         [Python | Machine Learning]  score=0.366
+       matched on: fast, tree, python, data
+       hybrid components: content=0.04, cf=0.58, popularity=0.59
+  5. click           [Python | CLI Tools]  score=0.356
+       matched on: parsing, pages, python
+       hybrid components: content=0.14, cf=0.48, popularity=0.54
+
+VERIFICATION: nearest neighbours are scraping/parsing libraries and the new item is in the Top-5 of the scraping query -> PASS
