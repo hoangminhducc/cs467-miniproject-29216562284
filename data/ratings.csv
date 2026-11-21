@@ -1,0 +1,265 @@
+user_id,item_id,rating,dev_comment
+U01,L01,3,"Decent, a bit heavy for small scripts."
+U01,L06,3,"Okay for http, though I prefer other tools for api client."
+U01,L08,3,"Okay for async, though I prefer other tools for asyncio."
+U01,L11,5,Solid choice for plotting; the docs are great.
+U01,L12,4,Use it daily for statistical plots and visualization. Highly recommend.
+U01,L13,5,Love the community and the visualization features.
+U01,L14,4,bokeh just works. Clean API and good interactive charts support.
+U01,L18,5,Fast to set up and reliable for arrays.
+U01,L19,5,"Great dataframe tooling, saved me a lot of time on data analysis."
+U01,L21,4,Use it daily for scientific and optimization. Highly recommend.
+U01,L22,5,Fast to set up and reliable for machine learning.
+U01,L23,5,Solid choice for deep learning; the docs are great.
+U01,L24,4,Solid choice for deep learning; the docs are great.
+U01,L25,5,xgboost just works. Clean API and good gradient boosting support.
+U01,L37,3,"Okay for cli, though I prefer other tools for argument parsing."
+U01,L39,3,"Okay for orm, though I prefer other tools for sql."
+U01,L40,2,Not a good fit for validation; found simpler alternatives.
+U02,L01,2,Slow in my tests and the API changes too often.
+U02,L05,3,"Okay for browser automation, though I prefer other tools for headless."
+U02,L06,4,Became a core part of my stack for http.
+U02,L07,4,"Great http tooling, saved me a lot of time on async."
+U02,L10,1,Too complex for what I need; web scraping feels clunky.
+U02,L16,2,Hard to configure and the docs confused me.
+U02,L18,3,"Okay for arrays, though I prefer other tools for linear algebra."
+U02,L22,3,Does the job for machine learning but the learning curve is real.
+U02,L25,3,Does the job for gradient boosting but the learning curve is real.
+U02,L29,2,Hard to configure and the docs confused me.
+U02,L30,5,flask just works. Clean API and good web framework support.
+U02,L33,2,Slow in my tests and the API changes too often.
+U02,L34,2,Hard to configure and the docs confused me.
+U02,L36,3,"Okay for testing, though I prefer other tools for mocking."
+U02,L37,2,Too complex for what I need; cli feels clunky.
+U02,L39,5,sqlalchemy just works. Clean API and good orm support.
+U03,L01,5,"Great html parsing tooling, saved me a lot of time on web scraping."
+U03,L03,5,lxml just works. Clean API and good xml support.
+U03,L04,5,"Great html parsing tooling, saved me a lot of time on css selectors."
+U03,L06,5,requests just works. Clean API and good http support.
+U03,L07,3,Works fine; documentation could be clearer.
+U03,L08,4,Solid choice for async; the docs are great.
+U03,L09,2,Too complex for what I need; html parsing feels clunky.
+U03,L11,2,Too complex for what I need; plotting feels clunky.
+U03,L13,3,"Decent, a bit heavy for small scripts."
+U03,L17,3,"Okay for charts, though I prefer other tools for canvas."
+U03,L18,3,"Okay for arrays, though I prefer other tools for linear algebra."
+U03,L20,3,Does the job for dataframe but the learning curve is real.
+U03,L21,2,Hard to configure and the docs confused me.
+U03,L29,2,Hard to configure and the docs confused me.
+U03,L30,2,Slow in my tests and the API changes too often.
+U03,L31,3,Does the job for web framework but the learning curve is real.
+U03,L35,2,Hard to configure and the docs confused me.
+U04,L01,2,Too complex for what I need; html parsing feels clunky.
+U04,L02,3,Works fine; documentation could be clearer.
+U04,L06,2,Hard to configure and the docs confused me.
+U04,L11,2,Not a good fit for plotting; found simpler alternatives.
+U04,L12,3,Does the job for statistical plots but the learning curve is real.
+U04,L15,2,Hard to configure and the docs confused me.
+U04,L18,3,Works fine; documentation could be clearer.
+U04,L19,3,"Okay for dataframe, though I prefer other tools for data analysis."
+U04,L21,4,Became a core part of my stack for scientific.
+U04,L22,5,Became a core part of my stack for machine learning.
+U04,L23,5,Became a core part of my stack for deep learning.
+U04,L25,4,Solid choice for gradient boosting; the docs are great.
+U04,L26,4,Love the community and the tokenization features.
+U04,L27,5,Love the community and the named entity recognition features.
+U04,L29,5,"Great topic modeling tooling, saved me a lot of time on nlp."
+U04,L35,3,Works fine; documentation could be clearer.
+U04,L38,2,Too complex for what I need; terminal feels clunky.
+U04,L40,3,Works fine; documentation could be clearer.
+U05,L03,1,Hard to configure and the docs confused me.
+U05,L04,2,Not a good fit for html parsing; found simpler alternatives.
+U05,L05,2,Too complex for what I need; browser automation feels clunky.
+U05,L07,2,Slow in my tests and the API changes too often.
+U05,L09,3,Does the job for html parsing but the learning curve is real.
+U05,L13,3,Does the job for interactive charts but the learning curve is real.
+U05,L14,3,Works fine; documentation could be clearer.
+U05,L15,3,"Decent, a bit heavy for small scripts."
+U05,L16,5,Solid choice for visualization; the docs are great.
+U05,L17,5,Fast to set up and reliable for charts.
+U05,L18,1,Not a good fit for arrays; found simpler alternatives.
+U05,L19,2,Slow in my tests and the API changes too often.
+U05,L20,2,Slow in my tests and the API changes too often.
+U05,L21,2,Slow in my tests and the API changes too often.
+U05,L23,2,Too complex for what I need; deep learning feels clunky.
+U05,L25,2,Hard to configure and the docs confused me.
+U05,L30,3,"Decent, a bit heavy for small scripts."
+U05,L31,3,"Okay for web framework, though I prefer other tools for orm."
+U05,L33,4,Fast to set up and reliable for web framework.
+U05,L34,3,Does the job for web framework but the learning curve is real.
+U05,L35,1,Too complex for what I need; testing feels clunky.
+U05,L36,5,jest just works. Clean API and good testing support.
+U05,L37,3,Does the job for cli but the learning curve is real.
+U05,L40,1,Slow in my tests and the API changes too often.
+U06,L02,3,"Okay for web crawling, though I prefer other tools for web scraping."
+U06,L04,3,"Decent, a bit heavy for small scripts."
+U06,L07,3,Works fine; documentation could be clearer.
+U06,L10,3,Does the job for web scraping but the learning curve is real.
+U06,L15,2,Slow in my tests and the API changes too often.
+U06,L18,4,"Great arrays tooling, saved me a lot of time on linear algebra."
+U06,L19,4,Fast to set up and reliable for dataframe.
+U06,L21,4,Love the community and the optimization features.
+U06,L22,5,Use it daily for machine learning and classification. Highly recommend.
+U06,L23,5,Love the community and the neural networks features.
+U06,L24,5,Became a core part of my stack for deep learning.
+U06,L25,4,xgboost just works. Clean API and good gradient boosting support.
+U06,L27,2,Not a good fit for nlp; found simpler alternatives.
+U06,L28,4,Solid choice for nlp; the docs are great.
+U06,L30,3,Does the job for web framework but the learning curve is real.
+U06,L33,2,Not a good fit for web framework; found simpler alternatives.
+U06,L39,2,Too complex for what I need; orm feels clunky.
+U07,L01,2,Hard to configure and the docs confused me.
+U07,L02,1,Hard to configure and the docs confused me.
+U07,L04,3,Does the job for html parsing but the learning curve is real.
+U07,L08,2,Hard to configure and the docs confused me.
+U07,L10,5,Became a core part of my stack for web scraping.
+U07,L11,3,"Decent, a bit heavy for small scripts."
+U07,L16,2,Hard to configure and the docs confused me.
+U07,L19,3,"Okay for dataframe, though I prefer other tools for data analysis."
+U07,L20,5,Fast to set up and reliable for dataframe.
+U07,L21,2,Too complex for what I need; scientific feels clunky.
+U07,L22,2,Hard to configure and the docs confused me.
+U07,L24,3,"Decent, a bit heavy for small scripts."
+U07,L27,3,"Okay for nlp, though I prefer other tools for named entity recognition."
+U07,L30,4,flask just works. Clean API and good web framework support.
+U07,L32,2,Hard to configure and the docs confused me.
+U07,L34,3,Does the job for web framework but the learning curve is real.
+U07,L35,3,"Decent, a bit heavy for small scripts."
+U07,L40,1,Too complex for what I need; validation feels clunky.
+U08,L03,3,Does the job for xml but the learning curve is real.
+U08,L05,3,"Okay for browser automation, though I prefer other tools for headless."
+U08,L06,3,Works fine; documentation could be clearer.
+U08,L07,3,"Okay for http, though I prefer other tools for async."
+U08,L10,1,Hard to configure and the docs confused me.
+U08,L11,5,Use it daily for plotting and charts. Highly recommend.
+U08,L12,5,Became a core part of my stack for statistical plots.
+U08,L13,5,Love the community and the visualization features.
+U08,L14,4,Became a core part of my stack for interactive charts.
+U08,L15,5,Use it daily for declarative and visualization. Highly recommend.
+U08,L16,5,Became a core part of my stack for visualization.
+U08,L18,4,Became a core part of my stack for arrays.
+U08,L19,5,Love the community and the data analysis features.
+U08,L20,3,"Decent, a bit heavy for small scripts."
+U08,L21,5,Love the community and the optimization features.
+U08,L22,2,Hard to configure and the docs confused me.
+U08,L23,2,Not a good fit for deep learning; found simpler alternatives.
+U08,L26,1,Not a good fit for nlp; found simpler alternatives.
+U08,L30,4,Fast to set up and reliable for web framework.
+U08,L31,2,Not a good fit for web framework; found simpler alternatives.
+U08,L32,2,Slow in my tests and the API changes too often.
+U08,L35,2,Too complex for what I need; testing feels clunky.
+U08,L37,3,"Decent, a bit heavy for small scripts."
+U08,L38,3,Works fine; documentation could be clearer.
+U09,L02,2,Too complex for what I need; web crawling feels clunky.
+U09,L04,2,Not a good fit for html parsing; found simpler alternatives.
+U09,L06,3,"Okay for http, though I prefer other tools for api client."
+U09,L07,1,Too complex for what I need; http feels clunky.
+U09,L08,2,Not a good fit for async; found simpler alternatives.
+U09,L09,5,Use it daily for html parsing and web scraping. Highly recommend.
+U09,L11,4,Fast to set up and reliable for plotting.
+U09,L13,2,Slow in my tests and the API changes too often.
+U09,L15,2,Too complex for what I need; declarative feels clunky.
+U09,L16,4,d3 just works. Clean API and good visualization support.
+U09,L17,5,Love the community and the canvas features.
+U09,L18,1,Too complex for what I need; arrays feels clunky.
+U09,L19,2,Hard to configure and the docs confused me.
+U09,L20,2,Too complex for what I need; dataframe feels clunky.
+U09,L23,2,Slow in my tests and the API changes too often.
+U09,L31,3,Works fine; documentation could be clearer.
+U09,L32,3,Works fine; documentation could be clearer.
+U09,L33,5,"Great web framework tooling, saved me a lot of time on nodejs."
+U09,L34,2,Hard to configure and the docs confused me.
+U09,L35,3,Works fine; documentation could be clearer.
+U09,L36,5,"Great testing tooling, saved me a lot of time on mocking."
+U09,L39,3,"Okay for orm, though I prefer other tools for sql."
+U10,L04,2,Not a good fit for html parsing; found simpler alternatives.
+U10,L06,5,Became a core part of my stack for http.
+U10,L07,3,Works fine; documentation could be clearer.
+U10,L08,5,"Great async tooling, saved me a lot of time on asyncio."
+U10,L09,2,Too complex for what I need; html parsing feels clunky.
+U10,L10,1,Hard to configure and the docs confused me.
+U10,L12,2,Too complex for what I need; statistical plots feels clunky.
+U10,L18,3,"Okay for arrays, though I prefer other tools for linear algebra."
+U10,L19,3,"Decent, a bit heavy for small scripts."
+U10,L20,2,Hard to configure and the docs confused me.
+U10,L22,2,Too complex for what I need; machine learning feels clunky.
+U10,L23,3,"Decent, a bit heavy for small scripts."
+U10,L24,2,Too complex for what I need; deep learning feels clunky.
+U10,L26,2,Not a good fit for nlp; found simpler alternatives.
+U10,L28,3,"Decent, a bit heavy for small scripts."
+U10,L29,2,Hard to configure and the docs confused me.
+U10,L30,3,Does the job for web framework but the learning curve is real.
+U10,L32,2,Hard to configure and the docs confused me.
+U10,L35,4,Love the community and the fixtures features.
+U10,L37,5,Use it daily for cli and argument parsing. Highly recommend.
+U10,L38,5,Use it daily for terminal and formatting. Highly recommend.
+U10,L40,3,"Decent, a bit heavy for small scripts."
+U11,L03,3,Works fine; documentation could be clearer.
+U11,L06,5,requests just works. Clean API and good http support.
+U11,L07,2,Hard to configure and the docs confused me.
+U11,L08,4,"Great async tooling, saved me a lot of time on asyncio."
+U11,L10,3,Works fine; documentation could be clearer.
+U11,L13,3,Does the job for interactive charts but the learning curve is real.
+U11,L18,5,Became a core part of my stack for arrays.
+U11,L19,3,"Okay for dataframe, though I prefer other tools for data analysis."
+U11,L22,3,"Okay for machine learning, though I prefer other tools for classification."
+U11,L23,4,Love the community and the neural networks features.
+U11,L25,3,"Okay for gradient boosting, though I prefer other tools for machine learning."
+U11,L27,3,"Okay for nlp, though I prefer other tools for named entity recognition."
+U11,L29,3,Does the job for topic modeling but the learning curve is real.
+U11,L30,5,Became a core part of my stack for web framework.
+U11,L31,3,Works fine; documentation could be clearer.
+U11,L34,2,Too complex for what I need; web framework feels clunky.
+U11,L39,2,Slow in my tests and the API changes too often.
+U12,L02,2,Not a good fit for web crawling; found simpler alternatives.
+U12,L07,2,Too complex for what I need; http feels clunky.
+U12,L08,2,Hard to configure and the docs confused me.
+U12,L11,4,Became a core part of my stack for plotting.
+U12,L12,3,Does the job for statistical plots but the learning curve is real.
+U12,L18,5,Became a core part of my stack for arrays.
+U12,L19,5,Love the community and the data analysis features.
+U12,L20,5,polars just works. Clean API and good dataframe support.
+U12,L21,5,Became a core part of my stack for scientific.
+U12,L22,2,Hard to configure and the docs confused me.
+U12,L24,2,Hard to configure and the docs confused me.
+U12,L26,2,Not a good fit for nlp; found simpler alternatives.
+U12,L28,3,"Okay for nlp, though I prefer other tools for transformers."
+U12,L30,2,Too complex for what I need; web framework feels clunky.
+U12,L31,1,Too complex for what I need; web framework feels clunky.
+U12,L35,2,Not a good fit for testing; found simpler alternatives.
+U12,L39,5,Use it daily for orm and sql. Highly recommend.
+U13,L01,2,Too complex for what I need; html parsing feels clunky.
+U13,L02,2,Hard to configure and the docs confused me.
+U13,L04,3,Works fine; documentation could be clearer.
+U13,L06,5,requests just works. Clean API and good http support.
+U13,L07,4,httpx just works. Clean API and good http support.
+U13,L08,4,aiohttp just works. Clean API and good async support.
+U13,L19,4,pandas just works. Clean API and good dataframe support.
+U13,L20,2,Hard to configure and the docs confused me.
+U13,L22,4,Became a core part of my stack for machine learning.
+U13,L24,3,"Decent, a bit heavy for small scripts."
+U13,L30,4,Use it daily for web framework and microframework. Highly recommend.
+U13,L31,4,Became a core part of my stack for web framework.
+U13,L32,5,Fast to set up and reliable for web framework.
+U13,L34,3,"Okay for web framework, though I prefer other tools for golang."
+U13,L38,2,Slow in my tests and the API changes too often.
+U13,L40,5,"Great validation tooling, saved me a lot of time on type hints."
+U14,L02,2,Slow in my tests and the API changes too often.
+U14,L03,2,Slow in my tests and the API changes too often.
+U14,L04,2,Hard to configure and the docs confused me.
+U14,L05,5,"Great browser automation tooling, saved me a lot of time on headless."
+U14,L06,5,requests just works. Clean API and good http support.
+U14,L07,3,"Decent, a bit heavy for small scripts."
+U14,L08,3,Does the job for async but the learning curve is real.
+U14,L12,3,"Okay for statistical plots, though I prefer other tools for visualization."
+U14,L14,3,"Okay for interactive charts, though I prefer other tools for visualization."
+U14,L18,2,Hard to configure and the docs confused me.
+U14,L19,3,"Okay for dataframe, though I prefer other tools for data analysis."
+U14,L22,2,Slow in my tests and the API changes too often.
+U14,L25,2,Slow in my tests and the API changes too often.
+U14,L30,1,Not a good fit for web framework; found simpler alternatives.
+U14,L32,3,Does the job for web framework but the learning curve is real.
+U14,L34,2,Too complex for what I need; web framework feels clunky.
+U14,L35,5,Use it daily for testing and fixtures. Highly recommend.
+U14,L36,4,Use it daily for testing and mocking. Highly recommend.
+U14,L38,3,Works fine; documentation could be clearer.
